@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-co Gram</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+    <div id="logo">E-co Gram</div>
+    <div id="gerenciador">Gerenciador de Imagens</div>
+    <div id="retangulo">
+        <!-- Retângulo interno -->
+        <div id="retangulo-interno">
+            <form action="cadastrarUsuario.php" method="post">
+                <label for="nome"></label><br>
+                <input type="text" id="nome" name="nome" placeholder="Nome" style="border-radius: 5px;"><br>
+                <label for="email"></label><br>
+                <input type="text" id="email" name="email" placeholder="E-mail" style="border-radius: 5px;"><br>
+                <label for="senha"></label><br>
+                <input type="password" id="senha" name="senha" placeholder="Senha" style="border-radius: 5px;"><br><br>
+                <input type="submit" value="Cadastrar" style="border-radius: 5px;">
+            </form>          
+        </div>
+    </div>
+</div>
+</body>
+</html>

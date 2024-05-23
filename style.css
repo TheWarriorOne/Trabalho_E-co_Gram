@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, sans-serif; /* Apenas uma referência à fonte, sem repetições */
+    background-color: #a3a1be; /* Azul claro */
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    background-color: #00008b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+#container{
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+#logo{
+    font-size: 100px; /* Aumentando o tamanho do nome*/
+    color: #00008b; /* Azul escuro*/
+    margin-bottom: 8px; /* Adicionando espaço abaixo do nome*/
+}
+
+#gerenciador {
+    font-size: 30px; /* Tamanho da frase*/
+    color: #00008b; /* Azul escuro*/
+    margin-bottom: 10px; /* Espaço entre a frase e o retângulo*/
+    }
+
+#retangulo {
+    margin-top: 40px;
+    width: 30%; /* Largura ajustada*/
+    margin: auto;
+    background-color: #171a63; /* Cinza claro*/
+    border-radius: 10px;
+    padding: 100px; /* Diminuído para caber o formulário*/
+    border: 2px solid #00008b; /* Adicionando uma borda azul escuro*/
+}
+
+    /* Novo estilo para o retângulo interno*/
+#retangulo-interno {
+    margin: auto;
+    background-color: #b2b4ff; /* Cinza claro*/
+    width: 50%;
+    border-radius: 5px; /* Borda arredondada*/
+    border: 1px solid #000000; /* Borda preta*/
+    height: 200px;
+}
