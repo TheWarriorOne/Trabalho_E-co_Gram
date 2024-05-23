@@ -1,7 +1,6 @@
 <?php
 
 include ('db.php');
-include('proteger.php');
 
 $msg = "";
 

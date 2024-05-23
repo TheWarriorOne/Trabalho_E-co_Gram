@@ -22,7 +22,7 @@
             $sql .= " AND descricao LIKE '%$pesquisaDescricao%'";
         }
         if (!empty($pesquisaGrupo)) {
-            $sql .= " AND grupo_id LIKE '%$pesquisaGrupo%'";
+            $sql .= " AND grupo_nome LIKE '%$pesquisaGrupo%'";
         }
 
         // Executa a consulta SQL
