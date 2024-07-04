@@ -28,7 +28,7 @@
         // Executa a consulta SQL
         $result = $conn->query($sql);
 
-        // Verifica se ocorreu um erro na execução da consulta
+        // Verifica se ocorreu um erro na execução da consulta.
         if (!$result) {
             die("ERRO ao Consultar! " . $conn->error);
         }

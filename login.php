@@ -33,7 +33,7 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
             header("Location: pgInicial.php");
             exit();
         } else {
-            echo " Falha ao logar! E-mail ou senha incorreta ";
+            echo " Falha ao logar!! E-mail ou senha incorretos! ";
         }
 
     }

@@ -20,7 +20,7 @@ if(isset($_POST['nome'], $_POST['email'], $_POST['senha'])) {
 
     $smtp->close();
 } else {
-    $msg = "Por favor, preencha todos os campos.";
+    $msg = "Por favor, preencha corretamente todos os campos.";
 }
 
 $conn->close();
