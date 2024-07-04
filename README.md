@@ -3,6 +3,8 @@ Banco de Dados
 Nome: 
 E-cogram
 
+Alunos: Michael Varaldo e Cristian Domingues
+
 Tabelas:
 categoria
 produto
